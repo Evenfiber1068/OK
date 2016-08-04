@@ -1,0 +1,115 @@
+OK Documentation
+Language written
+
+In OK there are 365 different memory locations that can each host numbers between 0 and 510 inclusive.
+There are no negative numbers and if a value would exceed 510, it loops back down to zero before incrementing again
+
+****Formatting****
+
+Throughout programming there have been several methods of formatting.
+This can create differences in methods and code between writers and it
+is for this reason that there is enforced formatting in OK
+
+Lines cannot be blank unless they are comments
+
+Tabs cannot be used to start lines
+
+These two revolutionary rules help ensure consistency between programmers and
+should create a healthy environment to work in.
+
+
+****Commands****
+
+Memory editing during runtime
+
+	"Hey"
+		Adds to the value of the current memory location a number equal to the number of exclamation marks (!) after it
+
+	"Hey there"
+		Adds the value of the current memory location to a memory location that is equal to the number of exclamation marks after it
+
+	"Lets keep going"
+		Moves forward a number of memory locations equal to the number of exclamation marks after it
+
+Moving around during the program	
+		
+	"Back"
+		Jumps back up the code a number of lines equal to the number of exclamation points after it
+
+	"Jump"
+		Jumps forward a number of lines equal to the number of exclamation points after it
+
+Input and output
+
+	"Show me!"
+		Reads the value from the current memory location as a number
+	
+	"Read me!"
+		Reads the value from the current memory location as a character
+	
+	"Show me there"
+		Reads the value from the memory location equal to the number of exclamation marks as a number
+	
+	"Read me there"
+		Reads the value from the memory location equal to the number of exclamation marks as a character
+	
+	"Show me more"
+		Reads out values from the current memory location and a number of following ones equal to the number of exclamation points after it as numbers
+	
+	"Read me more"
+		Reads out values from the current memory location and a number of following ones equal to the number of exclamation points after it as characters
+	
+	"Tell me!"
+		Takes a value from the user and stores it at the current memory location
+	
+	"Tell me there"
+		Takes a value from the user and stores it at a memory location equal to the number of exclamation marks after it
+	
+	"I need some space"
+		Prints a newline for each exclamation point after it
+	
+Functions
+
+	"Soon"
+		Denotes a function from that line until a line a number of lines away equal to the number of exclamation points after it
+		The line in the function directly after the declaration will not be read when the function is called and is left as
+		a resource for the programmer to lable their function
+	
+	"Now"
+		Runs a function thats order of declaration is equal to the number of exclamation points after it
+		Now! runs the first function declared
+		Now!! runs the second function declared
+	
+	"Get out!"
+		Ends the current function and escapes back to the line it was called from.
+	
+Conditionals and looping
+	
+	"What"
+		Checks if the current memory location is equal to a memory location equal to the number of question marks (?) on the line
+		if false, the code will skip a number of lines equal to the number of exclamation marks after it
+	
+	"Lets do it again"
+		Checks if the current memory location's value is equal to its location's id
+		if false, the code jumps backwards a number of lines equal to the number of exclamation marks after it.
+		
+Other things
+
+	"Secret"
+		Declares comment on that line and an additional line for each exclamation point following it
+	
+	"Cool!"
+		Denotes that the code following this is cool, uncool code will not compile
+		Functions do not need to be cool before they are created but do need to be cool when they run
+	
+	"Not Cool!"
+		Denotes that the following code is not cool.
+		Usually used to end the program.
+	
+
+	
+	
+	
+	
+	
+
